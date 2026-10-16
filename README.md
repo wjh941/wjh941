@@ -21,6 +21,8 @@
 | **[ai-resume](https://github.com/wjh941/ai-resume)** —— AI 岗位查询与智能简历工作台：三端一体（FastAPI + Vue3 + 微信小程序）。约 700 个自动化测试、92% 覆盖率进 CI 门禁；AI 只润色措辞，篡改经历会被正则守卫 422 拦截。 | **[fanqing-plan](https://github.com/wjh941/fanqing-plan)** —— 断更账号重启工具：AI 生成重启诊断/选题/双平台文案/排期。服务端注入系统提示词 + CORS 白名单的防滥用代理，Playwright E2E，Vercel + Pages 双线部署。 |
 | :--- | :--- |
 
+**[jd-match-radar](https://github.com/wjh941/jd-match-radar)** —— 岗位↔简历双通道可解释匹配检索：BM25 + 分类技能词典，每个分数可拆到简历原文证据与技能缺口；**12 组真值标注的确定性评测（Recall@3 = 1.000 / MRR = 0.865）在 CI 三版本 Node 复跑**，零 npm 依赖。
+
 ## 📊 数据与机器学习 · 从原始数据到在线服务
 
 | ![HomeValue 估值工作台](https://raw.githubusercontent.com/wjh941/homevalue/main/docs/images/dashboard.png) |
