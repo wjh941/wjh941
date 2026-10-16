@@ -27,7 +27,7 @@
 
 | ![HomeValue 估值工作台](https://raw.githubusercontent.com/wjh941/homevalue/main/docs/images/dashboard.png) |
 | :---: |
-| **[homevalue](https://github.com/wjh941/homevalue)** —— 北京二手房估值平台，端到端一个人做完：**186 万行**链家快照 → SQLite 三层数仓（12 个窗口函数查询）→ LightGBM + CQR 区间校准（**287,105 套房源，MAE 5,769 元/㎡，R² 0.924**）→ FastAPI 在线估值 + 逐因子归因 → 单房归因批量化 → A/B 实验设计（含 SRM 卡方检验）→ 月度自动重训管道（质量门禁阻断劣化模型）。时间外推的乐观偏差 +38.8% 也如实写进了文档。 |
+| **[homevalue](https://github.com/wjh941/homevalue)** —— 北京二手房估值平台，端到端一个人做完：**186 万行**链家快照 → SQLite 三层数仓（12 个窗口函数查询）→ LightGBM + CQR 区间校准（**287,105 套房源，MAE 5,769 元/㎡，R² 0.924**）→ FastAPI 在线估值 + 逐因子归因 → 单房归因批量化 → A/B 实验设计（含 SRM 卡方检验）→ 月度自动重训管道（质量门禁阻断劣化模型）→ 漂移监控看板（预测分布 vs 训练分布卡方检验）。时间外推的乐观偏差 +38.8% 也如实写进了文档。 |
 
 ## 🖥️ 前端全栈 · 产品级完成度
 
