@@ -6,7 +6,7 @@
 
 我不只写 Demo——每个项目都带自动化测试、CI 流水线和真实部署，其中两条产品线在真实售卖。
 
-[12 个公开仓库](https://github.com/wjh941?tab=repositories) · [1300+ 自动化测试](https://github.com/wjh941/ai-resume) · [12+ 条 CI 工作流](https://github.com/wjh941/yunfan-admin/actions) · [2 条在营付费产品线](https://github.com/wjh941/whoyouare)
+[13 个公开仓库](https://github.com/wjh941?tab=repositories) · [1500+ 自动化测试](https://github.com/wjh941/ai-resume) · [15+ 条 CI 工作流](https://github.com/wjh941/yunfan-admin/actions) · [2 条在营付费产品线](https://github.com/wjh941/whoyouare)
 
 </div>
 
@@ -21,7 +21,7 @@
 | **[ai-resume](https://github.com/wjh941/ai-resume)** —— AI 岗位查询与智能简历工作台：三端一体（FastAPI + Vue3 + 微信小程序）。约 700 个自动化测试、92% 覆盖率进 CI 门禁；AI 只润色措辞，篡改经历会被正则守卫 422 拦截。 | **[fanqing-plan](https://github.com/wjh941/fanqing-plan)** —— 断更账号重启工具：AI 生成重启诊断/选题/双平台文案/排期。服务端注入系统提示词 + CORS 白名单的防滥用代理，Playwright E2E，Vercel + Pages 双线部署。 |
 | :--- | :--- |
 
-**[jd-match-radar](https://github.com/wjh941/jd-match-radar)** —— 岗位↔简历双通道可解释匹配检索：BM25 + 分类技能词典，每个分数可拆到简历原文证据与技能缺口；**12 组真值标注的确定性评测（Recall@3 = 1.000 / MRR = 0.865）在 CI 三版本 Node 复跑**，零 npm 依赖。
+**[jd-match-radar](https://github.com/wjh941/jd-match-radar)** —— 岗位↔简历双通道可解释匹配检索：混合检索:BM25 + 字符 bigram 向量 + RRF 融合，每个分数可拆到简历原文证据与技能缺口；**12 组真值标注的确定性评测（Recall@3 = 1.000 / MRR = 0.865）在 CI 三版本 Node 复跑**，零 npm 依赖。
 
 ## 📊 数据与机器学习 · 从原始数据到在线服务
 
@@ -35,7 +35,7 @@
 | :---: | :---: |
 | **[campus-soul](https://github.com/wjh941/campus-soul)** —— 校园社交 H5：Supabase RLS 全覆盖 + 18+ 合规门禁 + PWA，36 个 SQL 迁移。 | **[yunfan-admin](https://github.com/wjh941/yunfan-admin)** —— 中后台管理系统：RBAC 三级权限 + ⌘K 命令面板 + React Query，Lighthouse 89/94/96。 |
 
-另有 **[whoyouare](https://github.com/wjh941/whoyouare)**（付费测评 H5：服务端一码一设备 + 微信内置浏览器四层防御）与入门向的 **[miniflow](https://github.com/wjh941/miniflow)**。
+另有 **[whoyouare](https://github.com/wjh941/whoyouare)**（付费测评 H5：服务端一码一设备 + 微信内置浏览器四层防御）与私人博客 **[miniflow v2.0](https://github.com/wjh941/miniflow)**（Apple 风格 PWA · 可选 AES-GCM 加密锁 · 离线可用）。
 
 ## 🛠️ 本地工具 · 解决真实问题
 
