@@ -6,7 +6,7 @@
 
 我不只写 Demo——每个项目都带自动化测试、CI 流水线和真实部署，其中两条产品线在真实售卖。
 
-[13 个公开仓库](https://github.com/wjh941?tab=repositories) · [1500+ 自动化测试](https://github.com/wjh941/ai-resume) · [15+ 条 CI 工作流](https://github.com/wjh941/yunfan-admin/actions) · [2 条在营付费产品线](https://github.com/wjh941/whoyouare)
+[14 个公开仓库](https://github.com/wjh941?tab=repositories) · [1500+ 自动化测试](https://github.com/wjh941/ai-resume) · [15+ 条 CI 工作流](https://github.com/wjh941/yunfan-admin/actions) · [2 条在营付费产品线](https://github.com/wjh941/whoyouare)
 
 </div>
 
@@ -44,6 +44,7 @@
 | [video-duplicate-check](https://github.com/wjh941/video-duplicate-check) | MP4 相似度查重：pHash+dHash + LSH，五种报告 + 可恢复安全清理 | 142 测试 · 2 OS × 3 Python CI |
 | [video_labeler](https://github.com/wjh941/video_labeler) | PySide6 视频片段标注：审核流 / FFmpeg 批量导出 / YOLO 交换 | 266 测试 · Win+Ubuntu CI |
 | [video-event-labeler](https://github.com/wjh941/video-event-labeler) | 零依赖 Web 行为事件标注：毫秒级截取 + 乐观锁并发保护 | 136 测试 · 双平台 CI |
+| [repo-pulse](https://github.com/wjh941/repo-pulse) | 仓库脉搏：一行命令体检全部公开仓库，可解释健康评分 | 8 测试 · Node 18/20/22 矩阵 |
 | [chen-sheng-assistant](https://github.com/wjh941/chen-sheng-assistant) | 零依赖本地经营助手：订单状态机 / 库存预警 / 登录限速 | 32 集成测试 · Node 18/20/22 矩阵 |
 
 ## 💰 在营业务（私有仓库）
