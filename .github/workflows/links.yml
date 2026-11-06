@@ -1,0 +1,21 @@
+name: links
+
+on:
+  push:
+    branches: [main]
+    paths: ['README.md', 'scripts/**', '.github/workflows/links.yml']
+  schedule:
+    - cron: '23 3 * * 1' # 每周一自动全量体检,404 不会过夜太久
+  workflow_dispatch:
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/check-links.mjs README.md
