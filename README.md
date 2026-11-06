@@ -6,7 +6,7 @@
 
 我不只写 Demo——每个项目都带自动化测试、CI 流水线和真实部署，其中两条产品线在真实售卖。
 
-[14 个公开仓库](https://github.com/wjh941?tab=repositories) · [1500+ 自动化测试](https://github.com/wjh941/ai-resume) · [15+ 条 CI 工作流](https://github.com/wjh941/yunfan-admin/actions) · [2 条在营付费产品线](https://github.com/wjh941/whoyouare)
+[14 个公开仓库](https://github.com/wjh941?tab=repositories) · [1500+ 自动化测试](https://github.com/wjh941/ai-resume) · [15+ 条 CI 工作流](https://github.com/wjh941/yunfan-admin/actions) · [在营付费产品线 · 喵系测试局](https://afdian.com/a/mythosmeow)
 
 </div>
 
@@ -35,7 +35,7 @@
 | :---: | :---: |
 | **[campus-soul](https://github.com/wjh941/campus-soul)** —— 校园社交 H5：Supabase RLS 全覆盖 + 18+ 合规门禁 + PWA，36 个 SQL 迁移。 | **[yunfan-admin](https://github.com/wjh941/yunfan-admin)** —— 中后台管理系统：RBAC 三级权限 + ⌘K 命令面板 + React Query，Lighthouse 89/94/96。 |
 
-另有 **[whoyouare](https://github.com/wjh941/whoyouare)**（付费测评 H5：服务端一码一设备 + 微信内置浏览器四层防御）与私人博客 **[miniflow v2.0](https://github.com/wjh941/miniflow)**（Apple 风格 PWA · 可选 AES-GCM 加密锁 · 离线可用）。
+另有私人博客 **[miniflow v2.0](https://github.com/wjh941/miniflow)**（Apple 风格 PWA · 跨产品测评档案 + AI 画像 · 可选 AES-GCM 加密锁 · 离线可用）；付费测评 H5（服务端一码一设备 + 微信内置浏览器四层防御）已并入下方在营业务，不再单独开仓展示。
 
 ## 🛠️ 本地工具 · 解决真实问题
 
