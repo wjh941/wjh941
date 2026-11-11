@@ -37,15 +37,26 @@
 
 另有私人博客 **[miniflow v2.0](https://github.com/wjh941/miniflow)**（Apple 风格 PWA · 跨产品测评档案 + AI 画像 · 可选 AES-GCM 加密锁 · 离线可用）；付费测评 H5（服务端一码一设备 + 微信内置浏览器四层防御）已并入下方在营业务，不再单独开仓展示。
 
-## 🛠️ 本地工具 · 解决真实问题
+## 🎬 视频数据集 · 从原始素材到训练集
+
+**我的主线方向:把「监控行为」做成可训练的数据集。** 一条完整流水线,不是三个孤立脚本:
+
+| 阶段 | 仓库 | 做什么 | 质量信号 |
+| --- | --- | --- | --- |
+| **切片 + 标注 + 审核** | [batch-cut-studio](https://github.com/wjh941/batch-cut-studio) | **数据集生产工场**:Smart Cut 关键帧吸附无损切 / 场景·黑场检测自动建清单 / 浏览器内在源视频上打点打标签 / 四态审核 / train-val 导出(按源分组防泄漏) | 55 测试 · 双系统 × 双 Python CI |
+| **数据质检** | [video-duplicate-check](https://github.com/wjh941/video-duplicate-check) | MP4 相似度查重:pHash+dHash + LSH,五种报告 + 可恢复安全清理 | 142 测试 · 2 OS × 3 Python CI |
+| **事件级标注** | [video-event-labeler](https://github.com/wjh941/video-event-labeler) | 零依赖 Web 行为事件标注:毫秒级截取 + 乐观锁并发保护 | 136 测试 · 双平台 CI |
+
+> **设计取舍**:行为标注是「标注先行」——在源视频上标时间区间(CVAT/BORIS/ELAN 同思路),
+> 边界可以反复改,切点最后才绑定。先切后标只适合检测框训练集。
+> 命名模板、无音轨源、损坏源预检、负样本导出、class_id 稳定性都是踩过坑之后补的。
+
+## 🛠️ 工程与工具
 
 | 仓库 | 一句话 | 质量信号 |
 | --- | --- | --- |
-| [video-duplicate-check](https://github.com/wjh941/video-duplicate-check) | MP4 相似度查重：pHash+dHash + LSH，五种报告 + 可恢复安全清理 | 142 测试 · 2 OS × 3 Python CI |
-| [video_labeler](https://github.com/wjh941/video_labeler) | PySide6 视频片段标注：审核流 / FFmpeg 批量导出 / YOLO 交换 | 266 测试 · Win+Ubuntu CI |
-| [video-event-labeler](https://github.com/wjh941/video-event-labeler) | 零依赖 Web 行为事件标注：毫秒级截取 + 乐观锁并发保护 | 136 测试 · 双平台 CI |
-| [repo-pulse](https://github.com/wjh941/repo-pulse) | 仓库脉搏：一行命令体检全部公开仓库，可解释健康评分 | 8 测试 · Node 18/20/22 矩阵 |
-| [chen-sheng-assistant](https://github.com/wjh941/chen-sheng-assistant) | 零依赖本地经营助手：订单状态机 / 库存预警 / 登录限速 | 32 集成测试 · Node 18/20/22 矩阵 |
+| [repo-pulse](https://github.com/wjh941/repo-pulse) | 仓库脉搏:一行命令体检全部公开仓库,可解释健康评分 | 16 测试 · Node 18/20/22 矩阵 |
+| [chen-sheng-assistant](https://github.com/wjh941/chen-sheng-assistant) | 零依赖本地经营助手:订单状态机 / 库存预警 / 登录限速 | 32 集成测试 · Node 18/20/22 矩阵 |
 
 ## 💰 在营业务（私有仓库）
 
